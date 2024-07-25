@@ -20,10 +20,14 @@ Different types of OS;
         3. Oracle
         4. BSD(Berkeley Software Distributions)
  4. Macos: Paid--> Kernel is GUI/CLI
+
+
 Protocols: 
  HTTP: Hyper Text Transfer Protocal--> port: 80
  HTTPS: Hyper Text Transfer Protocal Service--> port: 443
  SSH: Secure Shell--> port: 22
+
+
 LINUX COMMANDS:
    sudo -i--> root user--> by default root user ID is "0"
    ls--> list the files and folders
@@ -41,10 +45,14 @@ LINUX COMMANDS:
    touch--> to create new file
    cat--> displaying file content
    vi--> to create and write inside file,  commands inside vi is called "Modes"
+
+
 Procees Management:
  PS--> Process status-->"currently running process list"
  Kill--> Terminate
  Kill -9--> Force Terminate 
+
+
 User Management:[-rw-rw-r--]--> r=4, w=2, x=1 [777, 400]
  user: The one who created
  group: whcih group
@@ -54,22 +62,30 @@ User Management:[-rw-rw-r--]--> r=4, w=2, x=1 [777, 400]
  chgrp--> modify group ownership
  usermod -aG groupname username--> add user to group
  usermod -G groupname username--> delete user from group
+
+
 Package Management: 
  tar xvf filename--> un tar file
  gzip--> to compress a file
  rpm--> redhat package manager--> low level and manage individual package
  yum--> yellow dog utility manager--> High level and manages bulk of packages from repositories
+
+
 Service Management:
  systemctl start tool name--> to start the tool
  systemctl status tool name--> checking for status enable or disabled 
  systemctl stop tool name--> to stop the tool
  systemctl restart tool name--> to restarting tool
+
+
 Troubleshoot:
  top--> cpu memory
  df -h--> hard Disk
  ps -ef | grep <process name>--> process running status
  netstat Intp--> ports enable status
  ping <url address>--> check internet 
+
+
 Vi Editor:
  i--> Switch to insert mode to start inserting text before the cursor
  Esc--> Return to normal mode from insert mode
