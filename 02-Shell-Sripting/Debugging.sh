@@ -28,4 +28,4 @@ else
         echo " Installing git is success"
 fi
 
-"With using set -x in script, we will know execution of each command before printing output"
+#"With using set -x in script, we will know execution of each command before printing output"

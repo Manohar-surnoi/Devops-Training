@@ -15,3 +15,5 @@ if [$USEDID -ne 0]; then
 else
         echo " Installing git is success"
 fi
+
+#In shell scripting, you can execute commands conditionally using "If Else" statements. This allows you to control the flow of your script and perform different actions based on specific conditions.

@@ -10,5 +10,5 @@ echo "Hello ${Person2}, How are you!"
 echo "Hello ${Person3}, How are you!"
 
 echo "Hello ${Person1}, ${Person2}, ${Person3} How are you!"
-echo $?
+
 
