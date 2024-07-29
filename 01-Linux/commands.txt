@@ -38,12 +38,15 @@ LINUX COMMANDS:
    CRUD--> Create Read Update Delete
    ">" redirection, delete old content and add new 
    ">>" append, will not delete only add new
-   mkdir--> make directory
+   "mv"--> rename the file 
+   "stat"--> checking Size of the file
+   mkdir--> make directory/ create empty directory
    "cd"--> change directory
    wget--> download files from web
    curl--> curl is a broder tool for transferring data and interacting with servers
    touch--> to create new file
    cat--> displaying file content
+   ".sh"--> extension of shell script
    vi--> to create and write inside file,  commands inside vi is called "Modes"
 
 
