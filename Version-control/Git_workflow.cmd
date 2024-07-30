@@ -30,3 +30,16 @@ Branching Stategy:
  3. source, destination
  4. Merge, how to promote prod
  5. Conflicts resolve
+
+Git Stash: Git stash is a command used to temporarily save changes in your working directory that you’re not ready to commit yet.
+Stash makes workflow more flexible and efficient, especially when juggling multiple tasks or branches 
+
+Git rebase: Git rebase is powerfull git command used to integrate changes from one branch to another, but it iwll rewrites commit history to create 
+linear progression. It is commonly used to maintain a clean project history and to apply commits from one branch to another.
+
+Merge: Merge preserves the history of how commits were combined and creates a merge commit. This maintain exact history of commits.
+
+Merge Conflicts:
+ 1. If two branches modify the same lines of code in a file
+ 2. If one branch renames or moves a file while another branch modifies it
+ 3. If a file deleted in one branch and modified in another branch
