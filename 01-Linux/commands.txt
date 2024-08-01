@@ -49,6 +49,22 @@ LINUX COMMANDS:
    ".sh"--> extension of shell script
    vi--> to create and write inside file,  commands inside vi is called "Modes"
 
+VI Modules:
+ 1. esc -r: replace single letter
+ 2. esc -R: replace line
+ 3. esc -o: below line
+ 4. esc -O: above line
+ 5. esc -u: undu
+ 6. esc -p: paste
+ 7. esc -yy: copy
+ 8. esc -dd: delete
+ 9. esc-shift-: %d--> will delete all data
+ 10. esc -gg: begining of line
+ 11. esc -G: end of the line
+ 12. esc-shift-: se nu--> serial numbers
+ 13. esc-shift- : se nonu--> hiding serial numbers
+
+
 
 Procees Management:
  PS--> Process status-->"currently running process list"
@@ -63,8 +79,11 @@ User Management:[-rw-rw-r--]--> r=4, w=2, x=1 [777, 400]
  chmod--> changing permissions
  chown--> can modify user ownership
  chgrp--> modify group ownership
- usermod -aG groupname username--> add user to group
- usermod -G groupname username--> delete user from group
+ groupadd groupname--> group created
+ useradd -G groupname username--> add user to existing group
+ groupdel groupname--> group deleted
+ userdel username--> delete user
+ 
 
 
 Package Management: 
