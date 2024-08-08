@@ -5,4 +5,7 @@ The main advantage of using multibranch pipeline is to build and deploy multiple
 
 # How to trigger pipeline in jenkins when code merge in master 
 For this we will use GHPRB--> Github Pull Request Builder Pluggin
-In Github 
+In Github, we need to create webhook by giving Payload url., [ie., jenkins IP/ghprbhook/]
+And we need to configure GHPRB in jenkins server 
+Now we need to create new freestyle project and should configure github and SCM and GHPRB
+Once all configuration completed, we need to Push or pull changes into github main branch, a build will be automatically triggerd in Jenkins
