@@ -5,3 +5,4 @@ The main advantage of using multibranch pipeline is to build and deploy multiple
 
 # How to trigger pipeline in jenkins when code merge in master 
 For this we will use GHPRB--> Github Pull Request Builder Pluggin
+In Github 
