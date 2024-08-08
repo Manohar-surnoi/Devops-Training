@@ -1,0 +1,4 @@
+This multibranch pipeline enables us to implement different jenkinsfiles for different branches of the same project
+In this pipeline, jenkins automatically discovers, manages, and executes pipelines for branches in Git hub
+PR based: Branches get discovered automatically in the pipeline if someone raises PR(Pull Request)
+The main advantage of using multibranch pipeline is to build and deploy multiple branches from single repository
