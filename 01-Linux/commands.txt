@@ -121,6 +121,11 @@ Vi Editor:
  yy--> yank/copy
  dd--> cut
  p--> paste
+ se nu: Enable serial numbers
+ se nonu: Disable serial numbers
+ 
+# Keranl: Kernal is a most inportant part of Operating System. It allows hardware to talk to the Software.
+Kernal is a heart of OS. It will define CLI/CUI 
  
 
    
