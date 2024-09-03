@@ -37,3 +37,15 @@ sudo systemctl status jenkins
 --> Manage Jenkins--> Security--> Authorization--> logged in user
 
 
+
+
+---
+- name: Installation of maven
+  hosts: web
+  become: yes
+  tasks:
+   - name: download apache tar file
+	   ansible.builtin.get_url:
+	        url: https://archive.apache.org/dist/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz
+          dest: /opt
+          mode: '0755'
