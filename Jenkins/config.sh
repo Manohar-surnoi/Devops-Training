@@ -26,7 +26,7 @@ sudo systemctl status jenkins
 # Retriving of Jenkins Username and Password:
   --> Systemctl stop jenkins
   --> cd /var/lib/jenkins
-  -->  ls
+  --> ls
   --> vi config.xml
   --> usesecurity --> [True to False]
   --> Systemctl restart jenkins
