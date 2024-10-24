@@ -10,6 +10,11 @@ Main topics in Docker:
 
 ["Docker file---build----> Docker Image---run--> Docker container"]
 
+FROM ubuntu:latest
+RUN apt-get update -y && apt-get install -y nginx
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+
 
 Images: A Docker image is a Snapshot or Blueprint of the libraries and dependencies required inside a container for Running application
 
